@@ -1,6 +1,7 @@
 ﻿using CarBook.Application.Features.CQRS.Commands.AboutCommands;
 using CarBook.Application.Features.CQRS.Handlers.AboutHandlers.Read;
 using CarBook.Application.Features.CQRS.Handlers.AboutHandlers.Write;
+using CarBook.Application.Features.CQRS.Queries.AboutQueries;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
