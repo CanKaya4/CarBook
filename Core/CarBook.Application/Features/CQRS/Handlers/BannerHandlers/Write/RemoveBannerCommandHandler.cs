@@ -9,11 +9,11 @@ using System.Threading.Tasks;
 
 namespace CarBook.Application.Features.CQRS.Handlers.BannerHandlers.Write
 {
-    public class DeleteBannerCommandHandler
+    public class RemoveBannerCommandHandler
     {
         private readonly IRepository<Banner> _repository;
 
-        public DeleteBannerCommandHandler(IRepository<Banner> repository)
+        public RemoveBannerCommandHandler(IRepository<Banner> repository)
         {
             _repository = repository;
         }
