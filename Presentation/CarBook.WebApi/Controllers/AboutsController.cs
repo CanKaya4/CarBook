@@ -42,7 +42,7 @@ namespace CarBook.WebApi.Controllers
         public async Task<IActionResult> CreateAbout(CreateAboutCommand command)
         {
             await _createAboutCommandHandler.Handle(command);
-            return Ok("Hakkımda Bilgisi Eklendi.");
+            return Ok("Hakkımda Bilgisi Eklendi..");
         }
         [HttpDelete]
         public async Task<IActionResult> RemoveAbout(int id)
