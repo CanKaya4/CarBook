@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CarBook.Persistence.Migrations
 {
     [DbContext(typeof(CarBookDbContext))]
-    [Migration("20251113092651_mig_1")]
+    [Migration("20251116082644_mig_1")]
     partial class mig_1
     {
         /// <inheritdoc />
