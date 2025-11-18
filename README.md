@@ -22,7 +22,7 @@ Bu proje, ASP.NET Core 8 kullanılarak geliştirilmiş modern bir araç kiralama
 - **Tasarım Desenleri:**
   - **CQRS (Command Query Responsibility Segregation):** Yazma ve okuma operasyonlarını ayırarak daha performanslı ve yönetilebilir bir sistem sağlar.
   - **Mediator Pattern:** `MediatR` kütüphanesi ile katmanlar arası bağımlılığı azaltır ve merkezi bir istek-cevap yönetimi sunar.
-- **Veritabanı:** [Kullandığın veritabanını yaz, örn: PostgreSQL, SQL Server]
+- **Veritabanı:** SQL Server
 - **ORM:** Entity Framework Core
 - **Kimlik Doğrulama & Yetkilendirme:** ASP.NET Core Identity, JWT (JSON Web Tokens)
 - **Gerçek Zamanlı İletişim:** SignalR
