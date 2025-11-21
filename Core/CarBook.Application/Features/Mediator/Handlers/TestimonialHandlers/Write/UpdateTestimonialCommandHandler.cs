@@ -23,6 +23,7 @@ namespace CarBook.Application.Features.Mediator.Handlers.TestimonialHandlers.Wri
         {
             var value = await _repository.GetByIdAsync(request.TestimonialId);
             value.Title = request.Title;
+            value.Name = request.Name;
             value.Comment = request.Comment;
             value.ImageUrl = request.ImageUrl;
 
